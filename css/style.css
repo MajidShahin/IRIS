@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.3.1/css/all.css');
+
+body {
+  margin-top: 105px;
+ }
+
+ h1:after {
+  display: block;
+  height: 4px;
+  background-color: #111;
+  content: '';
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+ }
+
+.navbar {
+  box-shadow: 2px 2px 5px #3292a6;
+  opacity: 0.9;
+  background: #fff; }
+  .navbar .nav-item {
+    font-size: 1.4rem;
+    padding-right: 20px;
+ }
+
+.logo {
+  font-family: "Open Sans Condensed";
+}
+
+#showcase {
+  position: relative;
+  background: url("../img/hero.jpg");
+  min-height: 600px;
+ }
+
+#showcase .primary-overlay {
+  background: rgba(50, 146, 166, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+ }
+
+.info-header {
+  width: 50%;
+  margin: auto;
+  border-bottom: 1px #ddd solid;
+ }
+
+ /* Services Section */
+ .section-services {
+   background-color: #efefef;
+ }
+
+ .service-icon {
+   font-size: 400%;
+   display: block;
+   color: #3292a6;
+   margin-bottom: 40px;
+ }
+
+ .col-text-box {
+   padding: 1%;
+ }
+
+ .col-text-box p {
+   font-size: 95%;
+   line-height: 145%;
+ }
+ /* Services Section End */
+
+#team img {
+  margin-top: -50px;
+ }
+
+#team .fa {
+  color: #fff;
+  font-size: 25px;
+ }
+
+#team .card:hover {
+  background: #111;
+  opacity: 0.9;
+  color: #fff;
+ }
+
+#team .card:hover .fa {
+  color: #fff;
+ }
+
+/* SOCIAL ICONS */
+.social-icon {
+  font-size: 200%
+}
+
+.position {
+  font-size: 99%
+}
+
+.name {
+  font-weight: bold;
+  font-family: "Open Sans Condensed";
+}
+
+.section-contact h3 {
+  text-align: center;
+  border: 2px solid #fff;
+  padding: 10px 10px;
+  margin-left: none;
+  margin-right: none;
+  margin-bottom: 25px;
+  text-transform: capitalize;
+}
+
+/*
+.fa-linkedin,
+.fa-facebook,
+.fa-twitter-square,
+.fa-instagram {
+  transition: all 0.5s;
+}
+
+.fa-linkedin:hover {
+  color: #007bb5;
+}
+
+.fa-facebook:hover {
+  color: #3b5998;
+}
+
+.fa-twitter-square:hover {
+  color: #1da1f2;
+}
+
+.fa-instagram:hover {
+  color: #db4437;
+}
+/* SOCIAL ICONS ENDS */
